@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    font-size: 1em;
+}
+
+.banniere {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url('../fond1/WhatsApp\ Image\ 2024-02-23\ at\ 13.28.52\ \(1\).jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+    background-size: cover;
+    overflow: hidden;
+    width: auto;
+    position: relative;
+    top: 0;
+    left:0;
+    animation: bgChange 20s linear infinite;
+    z-index: 0;
+}
+
+@keyframes bgChange {
+    0% {
+        background-image: url('../fond1/WhatsApp\ Image\ 2024-02-23\ at\ 13.28.52\ \(1\).jpeg');
+    }
+    20% {
+        background-image: url('../fond1/WhatsApp\ Image\ 2024-02-23\ at\ 13.28.52\ \(1\).jpeg');
+    }
+    25% {
+        background-image: url('../fond1/B.jpeg');
+    }
+    45% {
+        background-image: url('../fond1/B.jpeg');
+    }
+    50% {
+        background-image: url('../fond1/A.jpeg');
+    }
+    70% {
+        background-image: url('../fond1/A.jpeg');
+    }
+    75% {
+        background-image: url('../fond1/WhatsApp\ Image\ 2024-02-23\ at\ 13.28.55\ \(3\).jpeg');
+    }
+    95% {
+        background-image: url('../fond1/WhatsApp\ Image\ 2024-02-23\ at\ 13.28.55\ \(3\).jpeg');
+    }
+}
+
+.overlay {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top:0;
+    left:0;
+    height: 100px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+nav {
+    display:flex;
+    color: #3a3939;
+    justify-content: space-between;
+    font-weight: 300;
+    font-size: 1em;
+    text-transform: uppercase;
+
+}
+
+.navlinks{
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(32, 31, 31);
+}
+
+header {
+    padding: 20px;
+    background-color: white;
+}
+
+.navlinks a {
+    padding-left: 40px;
+}
+
+h1 {  
+    display: inline-block;
+    font-size: 4em;
+    color: white;
+    padding-left: 10px;
+}
+
+.content {
+    z-index: 1;
+    color: white;
+}
+
+.contact {
+    position: relative;
+    top:0px;
+    left: 0px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 519.5px;
+    padding: 80px;
+    width: 50%;
+}
+
+.contact img {
+    position: relative;
+    top: 2PX;
+    height: 24px;
+    width: auto;
+}
+
+.contact h2 {
+    font-size: 2em;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.contact div {
+    font-size: 1.1em;
+}
+
+.question div {
+    display: inline-block;
+}
+
+.border {
+    background-color: rgb(238, 235, 220);
+    width: 25%;
+    
+}
+
+.grille {
+    display: flex;
+}

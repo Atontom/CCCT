@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    font-size: 1em;
+}
+
+.banniere {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url('../fond1/WhatsApp\ Image\ 2024-02-23\ at\ 13.28.52\ \(1\).jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+    background-size: cover;
+    overflow: hidden;
+    width: auto;
+    position: relative;
+    top: 0;
+    left:0;
+    animation: bgChange 20s linear infinite;
+    z-index: 0;
+}
+
+@keyframes bgChange {
+    0% {
+        background-image: url('../fond1/WhatsApp\ Image\ 2024-02-23\ at\ 13.28.52\ \(1\).jpeg');
+    }
+    20% {
+        background-image: url('../fond1/WhatsApp\ Image\ 2024-02-23\ at\ 13.28.52\ \(1\).jpeg');
+    }
+    25% {
+        background-image: url('../fond1/B.jpeg');
+    }
+    45% {
+        background-image: url('../fond1/B.jpeg');
+    }
+    50% {
+        background-image: url('../fond1/A.jpeg');
+    }
+    70% {
+        background-image: url('../fond1/A.jpeg');
+    }
+    75% {
+        background-image: url('../fond1/WhatsApp\ Image\ 2024-02-23\ at\ 13.28.55\ \(3\).jpeg');
+    }
+    95% {
+        background-image: url('../fond1/WhatsApp\ Image\ 2024-02-23\ at\ 13.28.55\ \(3\).jpeg');
+    }
+}
+
+.overlay {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top:0;
+    left:0;
+    height: 100px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+nav {
+    display:flex;
+    color: #3a3939;
+    justify-content: space-between;
+    font-weight: 300;
+    font-size: 1em;
+    text-transform: uppercase;
+
+}
+
+.navlinks{
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(32, 31, 31);
+}
+
+header {
+    padding: 20px;
+    background-color: white;
+}
+
+.navlinks a {
+    padding-left: 40px;
+}
+
+h1 {  
+    display: inline-block;
+    font-size: 4em;
+    color: white;
+    padding-left: 10px;
+}
+
+.about {
+    background-color: rgb(238, 235, 220);
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+}
+.about p, .calendar li {
+    text-align: justify;
+    font-size: 1.2em;
+    font-weight: 200;
+}
+.about img, .calendar img {
+    display: block;
+    margin: auto;
+    height: 200px;
+}
+
+.about h2, .calendar h2 {
+    font-size: 1.5em;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+.about div {
+    padding-left: 40px;
+    width: 50%;
+}
+
+.calendar {
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.calendar div{
+    padding-left: 70px;
+    width: 50%;
+}
+
+ul{
+    list-style-type: disc;
+    padding-left: 50px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border-top: 1px solid rgb(115, 113, 113);
+    font-weight: 200;
+    margin: 0 70px 0 70px;
+}
